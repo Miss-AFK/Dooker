@@ -6,5 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /app/
 WORKDIR /app/
 RUN git clone https://github.com/Miss-AFK/AnonXMusic LOKESHXMUSIC
-RUN cd LOLESHXMUSIC && pip3 install -U -r requirements.txt
-CMD cd LOLESHXMUSIC && python3 -m LOLESHXMUSIC
+RUN cd LOKESHXMUSIC && pip3 install -U -r requirements.txt
+CMD cd LOKESHXMUSIC && python3 -m LOKESHXMUSIC
